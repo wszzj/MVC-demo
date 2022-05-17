@@ -1,0 +1,25 @@
+#app2 {}
+
+#app2 .tabBar {
+    display: flex;
+
+}
+
+#app2 .tabBar>li.selector {
+    background-color: aquamarine;
+    color: white;
+}
+
+#app2 .tabBar>li {
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+#app2 .tabContent>li {
+    display: none;
+}
+
+#app2 .tabContent>li.active {
+    display: block;
+}
